@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(180deg,royalblue,rgb(32, 106, 226));
+}
+.container{
+    margin: auto;
+    padding: 10px;
+    min-height: 800px;
+    width: 80%;
+}
+.head{
+    margin: auto;
+    padding: 10px;
+    min-height: 15vh;
+    width: 98%;
+}
+.icon{
+    margin: 0;
+    padding-top: 10px;
+    width: 28%;
+    height: 10vh;
+    float: left;
+}
+.icon img{
+    height: inherit;
+    width: 300px;
+}
+.right{
+    margin: 0;
+    padding-top: 10px;
+    width: 70%;
+    min-height: 13vh;
+    float: right;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    width: 60%;
+    height: 10vh;
+    float: left;
+}
+ nav ul li{
+    list-style: none;
+    display: inline-block;
+ }
+ nav ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 20px 15px;
+    transition: .5s;
+    font-size: 20px;
+    color: #fff;
+ }
+ nav ul li a:hover{
+     transform: rotate(360deg);
+    transition: .5s;
+    color: #fff;
+ }
+
+.but{
+    margin: 0;
+    padding: 0;
+    width: 38%;
+    height: 10vh;
+    float: right;
+}
+.btn{
+    margin-top: 2vh;
+    margin-left: 2vh;
+    text-transform: capitalize;
+}
+.btn-info, .btn-success{
+    border-radius: 10px;
+}
+
+
+.box{
+    margin: 0;
+    padding: 0;
+    height: 40vh;
+    width: 100%;
+    margin-top: 25vh;
+    text-align: center;
+    color: white;
+    margin-bottom: 25vh;
+
+}
+.box-h1{
+    text-transform: capitalize;
+    font-size: 55px;
+}
+.box-p{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.btn-white{
+    border-radius: 20px;
+}
+.footer{
+    margin: 0;
+    padding: 0;
+    height: 15vh;
+    width: 100%;
+    text-align: center;
+    background: #fff;
+}
+.foo-h2{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: comic sans ms;
+    color: royalblue
+}
+@media (max-width:1830px){
+    .container{
+        width: 98%;
+    }
+}
+@media (max-width:1500px){
+    .icon{
+        width: 100%;
+        float: none;
+    }
+    .right{
+        width: 100%;
+        float: none;
+    }
+
+}
+@media (max-width:1050px){
+    nav ul{
+        width: 100%;
+        float: none;
+    }
+    .but{
+        width: 100%;
+        float: none;
+    }
+    .box-h1{
+        font-size: 45px;
+    }
+    .box-p{
+        font-size: 15px;
+    }
+}
+@media (max-width:630px){
+    nav ul li{
+        display: block;
+        text-align: center;
+    }
+    nav ul{
+        min-height: 60vh; 
+    }
+    .but{
+        text-align: center;
+    }
+    .head{
+        min-height: 80vh;
+    }
+    
+}
